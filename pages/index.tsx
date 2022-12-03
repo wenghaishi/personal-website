@@ -9,7 +9,9 @@ export default function Home() {
     <div className='bg-[rgb(36,36,36)] text-white h-screen snap-y nap-mandatory
     overflow-scroll z-0'>
       <Head>
-        <title>Sam's portfolio</title>
+        <title>
+          Sam&apos;s website
+        </title>
       </Head>
 
       <Header/>
