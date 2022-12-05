@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 import { Cursor } from 'react-simple-typewriter'
 import { useTypewriter } from 'react-simple-typewriter'
@@ -19,9 +20,9 @@ function Hero({}: Props) {
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
         <BackgroundCircles />
         <img 
-            className='relative rounded-full h-32 w-32 mx-auto object-cover' src="sam.jpeg" alt="" 
+            className='relative rounded-full h-40 w-40 mx-auto object-cover' src="sam.jpeg" alt="" 
         />
-        <div>
+        <div className='z-20'>
             <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>
                 Frontend Developer
             </h2>
@@ -30,11 +31,19 @@ function Hero({}: Props) {
                 <Cursor cursorColor='#F7AB0A' />
             </h1>
 
-            <div>
-                <button className='hero-Button'>About</button>
-                <button className='hero-Button'>Experience</button>
-                <button className='hero-Button'>Skills</button>
-                <button className='hero-Button'>Projects</button>
+            <div className='pt-5'>
+                <Link href="">
+                   <button className='hero-Button'>About</button>
+                </Link>
+                <Link href="">
+                    <button className='hero-Button'>Experience</button>
+                </Link>
+                <Link href="">
+                    <button className='hero-Button'>Skills</button>
+                </Link>
+                <Link href="">
+                    <button className='hero-Button'>Projects</button>
+                </Link>
             </div>
         </div>
     </div>
