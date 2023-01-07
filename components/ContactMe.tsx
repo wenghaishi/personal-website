@@ -19,10 +19,6 @@ function ContactMe({}: Props) {
                 <a href='mailto:wenghaishi1@gmail.com?'><SiMinutemailer className='h-10 w-10 text-[#f7a80a] animate-pulse'/></a>
                 <a href='mailto:wenghaishi1@gmail.com?'><p className='text-2xl'>wenghaishi1@gmail.com</p></a>
             </div>
-
-            <form>
-                
-            </form>
         </div>
     </div>
   )

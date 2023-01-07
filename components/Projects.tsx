@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion';
 import { SiReact} from 'react-icons/Si';
 
-type Props = {key}
+type Props = {}
 
 function Projects({}: Props) {
   const projects = [1, 2, 3, 4];
