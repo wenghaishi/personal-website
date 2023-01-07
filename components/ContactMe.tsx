@@ -1,5 +1,5 @@
 import React from 'react'
-import {SiMinutemailer} from 'react-icons/Si';
+import {SiMinutemailer} from 'react-icons/si';
 type Props = {}
 
 function ContactMe({}: Props) {

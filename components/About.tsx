@@ -1,6 +1,5 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-
 import { SiJavascript } from 'react-icons/si';
 import { SiPython } from 'react-icons/si';
 import { SiTypescript } from 'react-icons/si';
