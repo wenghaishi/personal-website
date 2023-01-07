@@ -26,7 +26,7 @@ export default function Header({}: Props) {
         className="flex flex-row items-center"
         >
             <SocialIcon 
-                url="https://www.youtube.com/channel/UC6xcRwLNks6VwcRZ1p4s13A" 
+                url="https://www.linkedin.com/in/haishi-weng/" 
                 fgColor='gray'
                 bgColor='transparent' 
             />
@@ -36,7 +36,7 @@ export default function Header({}: Props) {
                 bgColor='transparent' 
             />
             <SocialIcon 
-                url="https://www.youtube.com/channel/UC6xcRwLNks6VwcRZ1p4s13A" 
+                url="https://www.instagram.com/believeinsamm/" 
                 fgColor='gray'
                 bgColor='transparent' 
             />
@@ -58,15 +58,17 @@ export default function Header({}: Props) {
         }}
         className='flex flex-row items-center text-gray-300 cursor-pointer' 
         >
-            <SocialIcon 
+            <a href='mailto:wenghaishi1@gmail.com?' ><SocialIcon 
                 className='cursor-pointer'
                 network='email'
                 fgColor='gray'
                 bgColor='transparent' 
             />
-            <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>
+            </a>
+            <a href='mailto:wenghaishi1@gmail.com?' ><p className='uppercase hidden md:inline-flex text-sm text-gray-400'>
                 Get in touch
             </p>
+            </a>
         </motion.div>
     </header>
   );

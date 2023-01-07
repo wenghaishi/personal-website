@@ -1,5 +1,15 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { SiJavascript} from 'react-icons/Si';
+import { SiPython} from 'react-icons/Si';
+import { SiTypescript} from 'react-icons/Si';
+import { SiHtml5} from 'react-icons/Si';
+import { SiCss3} from 'react-icons/Si';
+import { SiSolidity} from 'react-icons/Si';
+import { SiReact, SiGithub, SiFigma, SiNextdotjs, SiTailwindcss} from 'react-icons/Si';
+
+
+
 
 type Props = {}
 
@@ -35,18 +45,40 @@ function About({}: Props) {
             viewport={{once: true}}
             src="sam1.jpeg"
             className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
-            md:rounded-lg md:w-65 md:h-90 xl:w-[400px] xl:h-[500px]"
+            md:rounded-lg md:w-65 md:h-90 xl:w-[400px] xl:h-[470px]"
         />
 
-        <div className='space-y-10 px-0 md:px-10'>
+        <div className='space-y-7 px-0 md:px-10'>
             <h4 className='text-4xl font-semibold'>
                 Here is a <span className='underline decoration-[#f7ab0a]/50'>little</span> background:
             </h4>
             <p className='text-xl'>
                 I am a frontend & blockchain developer based in Singapore. I love exploring and learning 
                 new technologies. In my free time, I enjoy weightlifting.
-                
             </p>
+            <div className='space-y-4'>
+                <p className='text-xl'>Skills</p>
+                <p className='text-m'>Programming languages</p>
+                <div className='flex flex-row space-x-4'>
+                    <SiPython className='h-10 w-10'/>
+                    <SiJavascript className='h-10 w-10'/>
+                    <SiTypescript className='h-10 w-10'/>
+                    <SiHtml5 className='h-10 w-10'/>
+                    <SiCss3 className='h-10 w-10'/>
+                    <SiSolidity className='h-10 w-10'/>
+                </div>
+                <h1>Libaries, frameworks & tools</h1>
+                <div className='flex flex-row space-x-4'>
+                    <SiReact className='h-10 w-10'/>
+                    <SiNextdotjs className='h-10 w-10'/>
+                    <SiTailwindcss className='h-10 w-10'/>
+                    <SiGithub className='h-10 w-10'/>
+                    <SiFigma className='h-10 w-10'/>
+                </div>
+        </div>
+            <div>
+
+            </div>
         </div>
     </motion.div>
   )

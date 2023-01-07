@@ -5,11 +5,12 @@ import Header from '../components/Header'
 import Hero from '../components/Hero'
 import About from '../components/About'
 import Projects from '../components/Projects'
+import ContactMe from '../components/ContactMe'
 
 export default function Home() {
   return (
     <div className='bg-[rgb(36,36,36)] text-white h-screen snap-y nap-mandatory
-    overflow-scroll z-0'>
+    overflow-scroll z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80'>
       <Head>
         <title>
           Sam&apos;s website
@@ -29,10 +30,12 @@ export default function Home() {
       { /* Experiences */}
       { /* Skills */}
       { /* Projects */}
-      <section id="section" className='snap-start'>
+      <section id="projects" className='snap-center'>
         <Projects />
       </section>
-      { /* Contact me */}
+      <section id="contact" className='snap-center'>
+        <ContactMe />
+      </section>
     </div>
   )
 }
