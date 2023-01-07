@@ -1,12 +1,12 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { SiJavascript} from 'react-icons/Si';
-import { SiPython} from 'react-icons/Si';
-import { SiTypescript} from 'react-icons/Si';
-import { SiHtml5} from 'react-icons/Si';
-import { SiCss3} from 'react-icons/Si';
-import { SiSolidity} from 'react-icons/Si';
-import { SiReact, SiGithub, SiFigma, SiNextdotjs, SiTailwindcss} from 'react-icons/Si';
+import { SiJavascript } from 'react-icons/Si';
+import { SiPython } from 'react-icons/Si';
+import { SiTypescript } from 'react-icons/Si';
+import { SiHtml5 } from 'react-icons/Si';
+import { SiCss3 } from 'react-icons/Si';
+import { SiSolidity } from 'react-icons/Si';
+import { SiReact, SiGithub, SiFigma, SiNextdotjs, SiTailwindcss } from 'react-icons/Si';
 
 
 
