@@ -16,7 +16,7 @@ function Projects({}: Props) {
         <div className='relative w-full flex overflow-y-hidden snap-x snap-mandatory
         z-20'>
             <div className='w-screen snap-center flex flex-col space-y-5 items-center justify-center 
-            p-20 md:p-44 h-screen'>
+            p-20  h-screen'>
               <a href="https://expense-tracker-lemon.vercel.app/" target='_blank' rel="noreferrer"><motion.img 
                 initial={{
                   y:-300,
@@ -26,10 +26,10 @@ function Projects({}: Props) {
                 whileInView={{ opacity: 1, y:0 }}
                 viewport={{ once: true}}
                 src="expenseTracker.png" alt="" className='mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
-                md:rounded-lg md:w-80 md:h-80 xl:w-[700px] xl:h-[390px]'/></a>
+                md:rounded-lg md:w-80 md:h-80 xl:w-[700px] xl:h-[390px] border-2 '/></a>
             <div>
-              <h4 className='text-2xl text-center '>
-                <span className='underline '>Expense tracker</span>
+              <h4 className='text-2xl text-center mb-1.5 '>
+                <span className='font-bold '>Expense tracker</span>
               </h4>
 
               <p className='text-lg text-center md:text-left ' >
@@ -40,7 +40,7 @@ function Projects({}: Props) {
           </div>
 
           <div className='w-screen snap-center flex flex-col space-y-5 items-center justify-center 
-            p-20 md:p-44 h-screen'>
+            p-20  h-screen'>
               <a href="https://robo-punksnft.netlify.app/" target='_blank' rel="noreferrer"><motion.img 
                 initial={{
                   y:-300,
@@ -50,10 +50,10 @@ function Projects({}: Props) {
                 whileInView={{ opacity: 1, y:0 }}
                 viewport={{ once: true}}
                 src="robo.png" alt="" className='mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
-                md:rounded-lg md:w-80 md:h-80 xl:w-[700px] xl:h-[390px]'/></a>
+                md:rounded-lg md:w-80 md:h-80 xl:w-[700px] xl:h-[390px] border-2 '/></a>
             <div>
-              <h4 className='text-2xl text-center '>
-                <span className='underline '>NFT minting site</span>
+              <h4 className='text-2xl text-center mb-1.5'>
+                <span className='font-bold '>NFT minting site</span>
               </h4>
 
               <p className='text-lg text-center md:text-left ' >
