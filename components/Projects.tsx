@@ -26,7 +26,7 @@ function Projects({}: Props) {
                 whileInView={{ opacity: 1, y:0 }}
                 viewport={{ once: true}}
                 src="expenseTracker.png" alt="" className='mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
-                md:rounded-lg md:w-80 md:h-80 xl:w-[700px] xl:h-[390px] border-2 '/></a>
+                md:rounded-lg md:w-80 md:h-80 xl:w-[700px] xl:h-[350px] border-2 '/></a>
             <div>
               <h4 className='text-2xl text-center mb-1.5 '>
                 <span className='font-bold '>Expense tracker</span>
@@ -50,7 +50,7 @@ function Projects({}: Props) {
                 whileInView={{ opacity: 1, y:0 }}
                 viewport={{ once: true}}
                 src="robo.png" alt="" className='mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
-                md:rounded-lg md:w-80 md:h-80 xl:w-[700px] xl:h-[390px] border-2 '/></a>
+                md:rounded-lg md:w-80 md:h-80 xl:w-[700px] xl:h-[350px] border-2 '/></a>
             <div>
               <h4 className='text-2xl text-center mb-1.5'>
                 <span className='font-bold '>NFT minting site</span>
