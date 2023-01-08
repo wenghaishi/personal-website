@@ -8,9 +8,6 @@ import { SiCss3 } from 'react-icons/si';
 import { SiSolidity } from 'react-icons/si';
 import { SiReact, SiGithub, SiFigma, SiNextdotjs, SiTailwindcss } from 'react-icons/si';
 
-
-
-
 type Props = {}
 
 function About({}: Props) {
@@ -45,7 +42,7 @@ function About({}: Props) {
             viewport={{once: true}}
             src="sam1.jpeg"
             className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
-            md:rounded-lg md:w-65 md:h-90 xl:w-[400px] xl:h-[470px]"
+            md:rounded-lg md:w-65 md:h-90 xl:w-[400px] xl:h-[470px] xs:h-20 xs:w-20"
         />
 
         <div className='space-y-7 px-0 md:px-10'>
