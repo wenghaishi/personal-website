@@ -42,21 +42,21 @@ function About({}: Props) {
             viewport={{once: true}}
             src="sam1.jpeg"
             className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
-            md:rounded-lg md:w-65 md:h-90 xl:w-[400px] xl:h-[470px] xs:h-20 xs:w-20"
+            md:rounded-lg md:w-[250px] md:h-[300px] xl:w-[400px] xl:h-[470px] invisible md:visible "
         />
 
-        <div className='space-y-7 px-0 md:px-10'>
-            <h4 className='text-4xl font-semibold'>
+        <div className='space-y-7 px-0 md:px-10 '>
+            <h4 className='text-3xl font-semibold'>
                 Here is a <span className='underline decoration-[#f7ab0a]/50'>little</span> background:
             </h4>
-            <p className='text-xl'>
+            <p className='md:text-xl sm:text-md'>
                 I am a frontend & blockchain developer based in Singapore. I love exploring and learning 
                 new technologies. In my free time, I enjoy weightlifting.
             </p>
             <div className='space-y-4'>
                 <p className='text-xl'>Skills</p>
                 <p className='text-m'>Programming languages</p>
-                <div className='flex flex-row space-x-4'>
+                <div className='flex flex-row space-x-4 justify-center md:justify-start'>
                     <SiPython className='h-10 w-10'/>
                     <SiJavascript className='h-10 w-10'/>
                     <SiTypescript className='h-10 w-10'/>
@@ -65,7 +65,7 @@ function About({}: Props) {
                     <SiSolidity className='h-10 w-10'/>
                 </div>
                 <h1>Libaries, frameworks & tools</h1>
-                <div className='flex flex-row space-x-4'>
+                <div className='flex flex-row space-x-4 justify-center md:justify-start'>
                     <SiReact className='h-10 w-10'/>
                     <SiNextdotjs className='h-10 w-10'/>
                     <SiTailwindcss className='h-10 w-10'/>
