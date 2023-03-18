@@ -6,7 +6,7 @@ function ContactMe({}: Props) {
   return (
     <div className='h-screen relative overflow-hidden flex flex-col text-left md:flex-row max-w-7xl
     justify-evenly mx-auto items-center px-10'>
-        <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
+        <h3 className='absolute top-24 uppercase tracking-[14px] text-gray-500 text-[14px] md:text-2xl md:tracking-[20px]'>
             Contact
         </h3>
 

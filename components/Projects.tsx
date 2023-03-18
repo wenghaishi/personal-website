@@ -9,7 +9,7 @@ function Projects({}: Props) {
   return (
     <div className='h-screen align-middle items-center justify-center text-center relative overflow-hidden flex flex-col md:flex-row max-w-full
      mx-auto  z-0'>
-        <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
+        <h3 className='absolute top-24 uppercase tracking-[14px] text-gray-500 text-[14px] md:text-2xl md:tracking-[20px]'>
             Projects
         </h3>
 
@@ -32,7 +32,7 @@ function Projects({}: Props) {
                 <span className='font-bold '>Expense tracker</span>
               </h4>
 
-              <p className='text-lg text-center md:text-left ' >
+              <p className='text-sm md:text-lg text-center md:text-left ' >
                 An expense tracker app that allows users to add their daily expenses. Has analytics and
                 chart and filter features. Built with the ReactJS library and vanilla CSS.
               </p>
@@ -51,8 +51,8 @@ function Projects({}: Props) {
                 viewport={{ once: true}}
                 src="airbnb.png" alt="" className='mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
                 md:rounded-lg md:w-80 md:h-80 xl:w-[700px] xl:h-[350px] '/></a>
-            <div className='h-1/4'>
-              <h4 className='text-2xl text-center mb-4'>
+            <div className='h-1/4 w-full'>
+              <h4 className='text-2xl text-center  mb-4'>
                 <span className='font-bold '>AirBnb Clone</span>
               </h4>
 
