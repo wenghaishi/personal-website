@@ -22,7 +22,7 @@ function About({}: Props) {
     transition={{
         duration: 1.5
     }}
-    className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl 
+    className="flex flex-col relative h-screen mt-12 text-center md:text-left md:flex-row max-w-7xl 
     px-10 justify-evenly mx-auto items-center">
         <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-sm md:text-2xl'>
             About
@@ -42,10 +42,10 @@ function About({}: Props) {
             viewport={{once: true}}
             src="sam1.jpeg"
             className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
-            md:rounded-lg md:w-[250px] md:h-[350px] xl:w-[400px] xl:h-[470px] invisible md:visible 2xl:h-[600] 2xl:w-[700] "
+            md:rounded-lg md:mt-16 md:w-[250px] md:h-[350px] xl:w-[400px] xl:h-[470px] invisible md:visible 2xl:h-[600] 2xl:w-[700] "
         />
 
-        <div className='space-y-7 px-0 md:px-10 '>
+        <div className='space-y-7 px-0 mt-4 md:px-10 md:mt-16'>
             <h4 className='text-3xl font-semibold'>
                 Here is a <span className='underline decoration-[#f7ab0a]/50'>little</span> background:
             </h4>

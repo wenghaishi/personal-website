@@ -13,7 +13,7 @@ function Projects({}: Props) {
             Projects
         </h3>
 
-        <div className='relative w-full flex mt-12 overflow-y-hidden snap-x snap-mandatory
+        <div className='relative w-full flex mt-12 overflow-y-hidden snap-x md:flex-row flex-col snap-mandatory
         z-20'>
             <div className='w-screen snap-center flex flex-col space-y-5 items-center justify-center mt-12 h-screen
             p-20'>
@@ -27,8 +27,8 @@ function Projects({}: Props) {
                 viewport={{ once: true}}
                 src="expenseTracker.png" alt="" className='mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
                 md:rounded-lg md:w-80 md:h-80 xl:w-[700px] xl:h-[350px]'/></a>
-            <div className="h-1/4 w-full">
-              <h4 className='text-2xl text-center mb-1.5 '>
+            <div className="h-1/4 w-full ">
+              <h4 className='text-2xl text-center mb-4 '>
                 <span className='font-bold '>Expense tracker</span>
               </h4>
 
@@ -52,7 +52,7 @@ function Projects({}: Props) {
                 src="airbnb.png" alt="" className='mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
                 md:rounded-lg md:w-80 md:h-80 xl:w-[700px] xl:h-[350px] '/></a>
             <div className='h-1/4'>
-              <h4 className='text-2xl text-center mb-1.5'>
+              <h4 className='text-2xl text-center mb-4'>
                 <span className='font-bold '>AirBnb Clone</span>
               </h4>
 
