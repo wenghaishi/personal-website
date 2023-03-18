@@ -13,7 +13,7 @@ function Projects({}: Props) {
             Projects
         </h3>
 
-        <div className='relative w-full flex mt-12 overflow-y-hidden snap-x md:flex-row flex-col snap-mandatory
+        <div className='relative w-full flex mt-12 overflow-y-hidden snap-x md:flex-row flex-col snap-mandatory max-w-screen-2xl
         z-20'>
             <div className='w-screen snap-center flex flex-col space-y-5 items-center justify-center mt-12 h-screen
             p-20'>
