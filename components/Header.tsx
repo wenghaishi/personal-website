@@ -23,7 +23,7 @@ export default function Header({}: Props) {
         transition={{
             duration: 1.5
         }}
-        className="flex flex-row items-center"
+        className="flex flex-row items-center "
         >
             <SocialIcon 
                 url="https://www.linkedin.com/in/haishi-weng/" 
