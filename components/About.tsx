@@ -45,11 +45,11 @@ function About({}: Props) {
             md:rounded-lg md:mt-16 md:w-[250px] md:h-[350px] xl:w-[400px] xl:h-[470px] invisible md:visible 2xl:h-[600] 2xl:w-[700] "
         />
 
-        <div className='space-y-7 px-0 mt-4 md:px-10 md:mt-16'>
-            <h4 className='text-3xl font-semibold'>
+        <div className='space-y-7 px-0 md:px-10 md:mt-20'>
+            <h4 className='text-md md:text-3xl font-semibold'>
                 Here is a <span className='underline decoration-[#f7ab0a]/50'>little</span> background:
             </h4>
-            <p className='md:text-xl sm:text-md'>
+            <p className='md:text-xl sm:text-sm'>
                 I am a frontend & blockchain developer based in Singapore. I love exploring and learning 
                 new technologies. In my free time, I enjoy weightlifting.
             </p>
