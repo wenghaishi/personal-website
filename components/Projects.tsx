@@ -17,7 +17,7 @@ function Projects({}: Props) {
         z-20'>
             <div className='w-screen snap-center flex flex-col space-y-5 items-center justify-center mt-12 h-screen
             p-20'>
-              <a href="https://expense-tracker-lemon.vercel.app/" target='_blank' rel="noreferrer"><motion.img 
+              <a href="https://l-wenghaishi.vercel.app/" target='_blank' rel="noreferrer"><motion.img 
                 initial={{
                   y:-300,
                   opacity: 0
@@ -25,16 +25,15 @@ function Projects({}: Props) {
                 transition={{ duration: 1.2 }}
                 whileInView={{ opacity: 1, y:0 }}
                 viewport={{ once: true}}
-                src="expenseTracker.png" alt="" className='mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
+                src="lottery.png" alt="" className='mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
                 md:rounded-lg md:w-80 md:h-80 xl:w-[700px] xl:h-[350px]'/></a>
             <div className="h-1/4 w-full ">
               <h4 className='text-2xl text-center mb-4 '>
-                <span className='font-bold '>Expense tracker</span>
+                <span className='font-bold '>Lottery dApp</span>
               </h4>
 
-              <p className='text-sm md:text-lg text-center md:text-left ' >
-                An expense tracker app that allows users to add their daily expenses. Has analytics and
-                chart and filter features. Built with the ReactJS library and vanilla CSS.
+              <p className='text-sm md:text-lg text-center md:text-left' >
+                Deployed on Polygon's Mumbai testnet. Allows players to purchase tickets. Allow owner to initiate a draw which will send the prize pool to the winner. (Ensure metamask is on Mumbai before connecting).
               </p>
             </div>
           </div>

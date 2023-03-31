@@ -6,6 +6,8 @@ import Hero from '../components/Hero'
 import About from '../components/About'
 import Projects from '../components/Projects'
 import ContactMe from '../components/ContactMe'
+import Projects2 from '../components/Projects2'
+import Experience from '../components/Experience';
 
 export default function Home() {
   return (
@@ -32,6 +34,9 @@ export default function Home() {
       { /* Projects */}
       <section id="projects" className='snap-center'>
         <Projects />
+      </section>
+      <section id="projects" className='snap-center'>
+        <Projects2 />
       </section>
       <section id="contact" className='snap-center'>
         <ContactMe />
