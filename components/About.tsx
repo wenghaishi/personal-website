@@ -6,6 +6,8 @@ import { SiTypescript } from 'react-icons/si';
 import { SiHtml5 } from 'react-icons/si';
 import { SiCss3 } from 'react-icons/si';
 import { SiSolidity } from 'react-icons/si';
+import { SiRuby } from 'react-icons/si';
+import { SiRubyonrails } from 'react-icons/si'
 import { SiReact, SiGithub, SiFigma, SiNextdotjs, SiTailwindcss } from 'react-icons/si';
 
 type Props = {}
@@ -42,7 +44,7 @@ function About({}: Props) {
             viewport={{once: true}}
             src="sam1.jpeg"
             className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
-            md:rounded-lg md:mt-16 md:w-[250px] md:h-[350px] xl:w-[400px] xl:h-[470px] invisible md:visible 2xl:h-[600] 2xl:w-[700] "
+            md:rounded-lg md:mt-16 md:w-[250px] md:h-[350px] xl:w-[400px] xl:h-[470px] invisible md:visible 2xl:h-[600] 2xl:w-[700]"
         />
 
         <div className='space-y-7 px-0 md:px-10 md:mt-20'>
@@ -50,7 +52,7 @@ function About({}: Props) {
                 Here is a <span className='underline decoration-[#f7ab0a]/50'>little</span> background:
             </h4>
             <p className='md:text-xl sm:text-sm'>
-                I am a frontend & blockchain developer based in Singapore. I love exploring and learning 
+                My name is Weng Haishi (Sam). Web and blockchain is my passion. I love exploring and learning 
                 new technologies. In my free time, I enjoy weightlifting.
             </p>
             <div className='space-y-4'>
@@ -63,11 +65,13 @@ function About({}: Props) {
                     <SiHtml5 className='h-10 w-10'/>
                     <SiCss3 className='h-10 w-10'/>
                     <SiSolidity className='h-10 w-10'/>
+                    <SiRuby className='h-10 w-10' />
                 </div>
                 <h1>Libaries, frameworks & tools</h1>
                 <div className='flex flex-row space-x-4 justify-center md:justify-start'>
                     <SiReact className='h-10 w-10'/>
                     <SiNextdotjs className='h-10 w-10'/>
+                    <SiRubyonrails className='h-10 w-10'/>
                     <SiTailwindcss className='h-10 w-10'/>
                     <SiGithub className='h-10 w-10'/>
                     <SiFigma className='h-10 w-10'/>
