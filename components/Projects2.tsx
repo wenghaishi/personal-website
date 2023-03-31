@@ -48,7 +48,7 @@ function Projects2() {
                   transition={{ duration: 1.2 }}
                   whileInView={{ opacity: 1, y:0 }}
                   viewport={{ once: true}}
-                  src="expenseTracker.png" alt="" className='mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
+                  src="expenseTracker.png" alt="" className='mb-20 md:mb-0 brightness-75 flex-shrink-0 w-56 h-56 rounded-full object-cover
                   md:rounded-lg md:w-80 md:h-80 xl:w-[700px] xl:h-[350px]'/></a>
               <div className="h-1/4 w-full ">
                 <h4 className='text-2xl text-center mb-4 '>

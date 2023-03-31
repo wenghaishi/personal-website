@@ -43,7 +43,7 @@ function About({}: Props) {
             }}
             viewport={{once: true}}
             src="sam1.jpeg"
-            className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
+            className="-mb-20 md:mb-0 brightness-90 flex-shrink-0 w-56 h-56 rounded-full object-cover
             md:rounded-lg md:mt-16 md:w-[250px] md:h-[350px] xl:w-[400px] xl:h-[470px] invisible md:visible 2xl:h-[600] 2xl:w-[700]"
         />
 
