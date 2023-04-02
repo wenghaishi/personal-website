@@ -11,7 +11,7 @@ import { SiRubyonrails } from 'react-icons/si'
 import { SiReact, SiGithub, SiFigma, SiNextdotjs, SiTailwindcss } from 'react-icons/si';
 
 
-function About({}: Props) {
+function About() {
   return (
     <motion.div 
     initial ={{
