@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 
 
-function Projects({}: Props) {
+function Projects() {
 
   return (
     <div className='h-screen align-middle items-center justify-center text-center relative overflow-hidden flex flex-col md:flex-row max-w-full
