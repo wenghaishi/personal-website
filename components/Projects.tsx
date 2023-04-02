@@ -2,7 +2,6 @@ import React from 'react'
 import { motion } from 'framer-motion';
 
 
-type Props = {}
 
 function Projects({}: Props) {
 
@@ -33,7 +32,7 @@ function Projects({}: Props) {
               </h4>
 
               <p className='text-sm md:text-lg text-center md:text-left' >
-                Deployed on Polygon's Mumbai testnet. Allows players to purchase tickets. Allow owner to initiate a draw which will send the prize pool to the winner. (Ensure metamask is on Mumbai before connecting).
+                Deployed on Polygon's Mumbai testnet. Allows players to purchase tickets. Allow contract owner to draw winners. Built with NextJs, Typescript & TailwindCSS. (Ensure metamask on Mumbai).
               </p>
             </div>
           </div>

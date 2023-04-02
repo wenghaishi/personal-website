@@ -1,8 +1,7 @@
 import React from 'react'
 import {SiMinutemailer} from 'react-icons/si';
-type Props = {}
 
-function ContactMe({}: Props) {
+function ContactMe() {
   return (
     <div className='h-screen relative overflow-hidden flex flex-col text-left md:flex-row max-w-7xl
     justify-evenly mx-auto items-center px-10'>

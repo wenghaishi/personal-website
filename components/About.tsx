@@ -10,7 +10,6 @@ import { SiRuby } from 'react-icons/si';
 import { SiRubyonrails } from 'react-icons/si'
 import { SiReact, SiGithub, SiFigma, SiNextdotjs, SiTailwindcss } from 'react-icons/si';
 
-type Props = {}
 
 function About({}: Props) {
   return (

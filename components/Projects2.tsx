@@ -2,7 +2,6 @@ import React from 'react'
 import { motion } from 'framer-motion';
 
 
-type Props = {}
 function Projects2() {
   return (
       <div className='h-screen align-middle items-center justify-center text-center relative overflow-hidden flex flex-col md:flex-row max-w-full
@@ -25,7 +24,7 @@ function Projects2() {
                   transition={{ duration: 1.2 }}
                   whileInView={{ opacity: 1, y:0 }}
                   viewport={{ once: true}}
-                  src="catch.png" alt="" className='mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
+                  src="catch.png" alt="" className='mb-20 md:mb-0 brightness-95 flex-shrink-0 w-56 h-56 rounded-full object-cover
                   md:rounded-lg md:w-80 md:h-80 xl:w-[700px] xl:h-[350px] '/></a>
               <div className='h-1/4 w-full'>
                 <h4 className='text-2xl text-center  mb-4'>
@@ -48,7 +47,7 @@ function Projects2() {
                   transition={{ duration: 1.2 }}
                   whileInView={{ opacity: 1, y:0 }}
                   viewport={{ once: true}}
-                  src="expenseTracker.png" alt="" className='mb-20 md:mb-0 brightness-75 flex-shrink-0 w-56 h-56 rounded-full object-cover
+                  src="expenseTracker.png" alt="" className='mb-20 md:mb-0 brightness-110 flex-shrink-0 w-56 h-56 rounded-full object-cover
                   md:rounded-lg md:w-80 md:h-80 xl:w-[700px] xl:h-[350px]'/></a>
               <div className="h-1/4 w-full ">
                 <h4 className='text-2xl text-center mb-4 '>
