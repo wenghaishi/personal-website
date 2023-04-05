@@ -24,7 +24,7 @@ function Projects2() {
                   transition={{ duration: 1.2 }}
                   whileInView={{ opacity: 1, y:0 }}
                   viewport={{ once: true}}
-                  src="catch.png" alt="" className='mb-20 md:mb-0 brightness-95 flex-shrink-0 w-56 h-56 rounded-full object-cover
+                  src="catch1.gif" alt="" className='mb-20 md:mb-0 brightness-95 flex-shrink-0 w-56 h-56 rounded-full object-cover
                   md:rounded-lg md:w-80 md:h-80 xl:w-[700px] xl:h-[350px] '/></a>
               <div className='h-1/4 w-full'>
                 <h4 className='text-2xl text-center  mb-4'>
@@ -47,7 +47,7 @@ function Projects2() {
                   transition={{ duration: 1.2 }}
                   whileInView={{ opacity: 1, y:0 }}
                   viewport={{ once: true}}
-                  src="expenseTracker.png" alt="" className='mb-20 md:mb-0 brightness-110 flex-shrink-0 w-56 h-56 rounded-full object-cover
+                  src="expense.gif" alt="" className='mb-20 md:mb-0 brightness-110 flex-shrink-0 w-56 h-56 rounded-full object-cover
                   md:rounded-lg md:w-80 md:h-80 xl:w-[700px] xl:h-[350px]'/></a>
               <div className="h-1/4 w-full ">
                 <h4 className='text-2xl text-center mb-4 '>
@@ -55,7 +55,7 @@ function Projects2() {
                 </h4>
   
                 <p className='text-sm md:text-lg text-center md:text-left ' >
-                  An expense tracker app that allows users to add their daily expenses. Has analytics and
+                  An expense tracker app that allows users to add their daily expenses. Has analytics,
                   chart and filter features. Built with the ReactJS library and vanilla CSS.
                 </p>
               </div>
