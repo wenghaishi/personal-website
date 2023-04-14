@@ -4,9 +4,7 @@ import { Cursor } from 'react-simple-typewriter'
 import { useTypewriter } from 'react-simple-typewriter'
 import BackgroundCircles from './BackgroundCircles';
 
-type Props = {}
-
-function Hero({}: Props) {
+function Hero() {
     const [text, count] = useTypewriter({
         words: [
             "Hi, My name is Weng Haishi (Sam)",

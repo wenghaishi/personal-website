@@ -24,10 +24,10 @@ function Projects() {
                 transition={{ duration: 1.2 }}
                 whileInView={{ opacity: 1, y:0 }}
                 viewport={{ once: true}}
-                src="lottery.gif" alt="" className='mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
+                src="default.png" alt="" className='mb-20 md:mb-0 lottery flex-shrink-0 w-56 h-56 rounded-full object-cover
                 md:rounded-lg md:w-80 md:h-80 xl:w-[700px] xl:h-[350px]'/></a>
             <div className="h-1/4 w-full ">
-              <h4 className='text-2xl text-center mb-4 '>
+              <h4 className='text-2xl text-center mb-4'>
                 <span className='font-bold '>Lottery dApp</span>
               </h4>
 
@@ -47,7 +47,7 @@ function Projects() {
                 transition={{ duration: 1.2 }}
                 whileInView={{ opacity: 1, y:0 }}
                 viewport={{ once: true}}
-                src="airbnb.gif" alt="" className='mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
+                src="default.png" alt="" className='mb-20 md:mb-0 airbnb flex-shrink-0 w-56 h-56 rounded-full object-cover
                 md:rounded-lg md:w-80 md:h-80 xl:w-[700px] xl:h-[350px] '/></a>
             <div className='h-1/4 w-full'>
               <h4 className='text-2xl text-center  mb-4'>

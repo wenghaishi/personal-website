@@ -8,3 +8,55 @@
     text-gray-500 transition-all hover:border-[#f7ab0a]/40 hover:text-[#f7ab0a]/40
   }
 }
+
+.lottery {
+ background-image: url('../public/lottery.png');
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center; 
+ transition: all .25s ease-in-out; 
+}
+
+.lottery:hover {
+  background-image: url('../public/lottery.gif');
+  scale: 1.05;
+}
+
+.airbnb {
+  background-image: url('../public/airbnb.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  transition: all .25s ease-in-out; 
+ }
+ 
+ .airbnb:hover {
+   background-image: url('../public/airbnb.gif');
+   scale: 1.05;
+ }
+
+ .catch {
+  background-image: url('../public/catch.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  transition: all .25s ease-in-out; 
+ }
+ 
+ .catch:hover {
+   background-image: url('../public/catch.gif');
+   scale: 1.05;
+ }
+
+ .expense {
+  background-image: url('../public/expense.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  transition: all .25s ease-in-out; 
+ }
+ 
+ .expense:hover {
+   background-image: url('../public/expense.gif');
+   scale: 1.05;
+ }
