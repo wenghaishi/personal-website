@@ -8,7 +8,7 @@ import { SiCss3 } from 'react-icons/si';
 import { SiSolidity } from 'react-icons/si';
 import { SiRuby } from 'react-icons/si';
 import { SiRubyonrails } from 'react-icons/si'
-import { SiReact, SiGithub, SiFigma, SiNextdotjs, SiTailwindcss } from 'react-icons/si';
+import { SiReact, SiGithub, SiFigma, SiNextdotjs, SiTailwindcss, SiNodedotjs, SiMongodb, SiPostgresql } from 'react-icons/si';
 
 
 function About() {
@@ -70,7 +70,10 @@ function About() {
                 <div className='flex flex-row space-x-4 justify-center md:justify-start'>
                     <SiReact className='h-10 w-10'/>
                     <SiNextdotjs className='h-10 w-10'/>
+                    <SiNodedotjs className='h-10 w-10'/>
                     <SiRubyonrails className='h-10 w-10'/>
+                    <SiMongodb className='h-10 w-10'/>
+                    <SiPostgresql className='h-10 w-10'/>
                     <SiTailwindcss className='h-10 w-10'/>
                     <SiGithub className='h-10 w-10'/>
                     <SiFigma className='h-10 w-10'/>
