@@ -57,7 +57,7 @@ function Projects() {
             p-20  h-screen"
         >
           <a
-            href="https://airbnb-app-wgap.onrender.com"
+            href="https://airtbnb-clone.herokuapp.com/"
             target="_blank"
             rel="noreferrer"
           >
