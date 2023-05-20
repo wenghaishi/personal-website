@@ -34,11 +34,12 @@ export default function Home() {
       {/* Skills */}
       {/* Projects */}
       <section id="projects" className="snap-center">
-        <Projects />
-      </section>
-      <section id="projects" className="snap-center">
         <Projects2 />
       </section>
+      <section id="projects" className="snap-center">
+        <Projects />
+      </section>
+
       <section id="contact" className="snap-center">
         <ContactMe />
       </section>
