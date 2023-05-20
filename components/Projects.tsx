@@ -57,7 +57,7 @@ function Projects() {
             p-20  h-screen"
         >
           <a
-            href="https://airtbnb-clone.herokuapp.com/"
+            href="https://abnb-clone.herokuapp.com/"
             target="_blank"
             rel="noreferrer"
           >

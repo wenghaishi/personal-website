@@ -20,7 +20,7 @@ function Projects2() {
               p-20  h-screen"
         >
           <a
-            href="https://catch-app.onrender.com"
+            href="https://catch-nft.herokuapp.com/tokens"
             target="_blank"
             rel="noreferrer"
           >
