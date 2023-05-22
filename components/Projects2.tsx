@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { SocialIcon } from "react-social-icons";
 
 function Projects2() {
   return (
@@ -41,7 +42,14 @@ function Projects2() {
           </a>
           <div className="h-1/4 w-full">
             <h4 className="text-2xl text-center  mb-4">
-              <span className="font-bold ">Catch NFT app</span>
+              <span className="font-bold ">
+                Catch NFT app{" "}
+                <SocialIcon
+                  url="https://github.com/wenghaishi/catch-1160"
+                  fgColor="gray"
+                  bgColor="transparent"
+                />
+              </span>
             </h4>
 
             <p className="text-lg text-center md:text-left">
@@ -78,7 +86,14 @@ function Projects2() {
           </a>
           <div className="h-1/4 w-full ">
             <h4 className="text-2xl text-center mb-4 ">
-              <span className="font-bold ">Expense tracker</span>
+              <span className="font-bold ">
+                Expense tracker{" "}
+                <SocialIcon
+                  url="https://github.com/wenghaishi/expense-tracker"
+                  fgColor="gray"
+                  bgColor="transparent"
+                />
+              </span>
             </h4>
 
             <p className="text-sm md:text-lg text-center md:text-left ">

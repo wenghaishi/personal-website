@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { SocialIcon } from "react-social-icons";
 
 function Projects() {
   return (
@@ -37,12 +38,20 @@ function Projects() {
           </a>
           <div className="h-1/4 w-full ">
             <h4 className="text-2xl text-center mb-4">
-              <span className="font-bold ">Job tracking App</span>
+              <span className="font-bold ">
+                Job tracking App{" "}
+                <SocialIcon
+                  url="https://github.com/wenghaishi/jobify"
+                  fgColor="gray"
+                  bgColor="transparent"
+                />
+              </span>
             </h4>
 
             <p className="text-sm md:text-lg text-center md:text-left">
               Job tracker App with search, filter and chart features. Built with
-              ReactJs, NodeJs, ExpressJs and MongoDB. Allows creation of users and jobs.
+              ReactJs, NodeJs, ExpressJs and MongoDB. Allows creation of users
+              and jobs.
             </p>
           </div>
         </div>
@@ -73,7 +82,14 @@ function Projects() {
           </a>
           <div className="h-1/4 w-full">
             <h4 className="text-2xl text-center  mb-4">
-              <span className="font-bold ">AirBnb Clone</span>
+              <span className="font-bold ">
+                AirBnb Clone{" "}
+                <SocialIcon
+                  url="https://github.com/wenghaishi/1160-airbnb-clone"
+                  fgColor="gray"
+                  bgColor="transparent"
+                />
+              </span>
             </h4>
 
             <p className="text-lg text-center md:text-left">

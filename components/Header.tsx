@@ -30,16 +30,6 @@ export default function Header({}: Props) {
                 fgColor='gray'
                 bgColor='transparent' 
             />
-            {/* <SocialIcon 
-                url="https://www.youtube.com/channel/UC6xcRwLNks6VwcRZ1p4s13A" 
-                fgColor='gray'
-                bgColor='transparent' 
-            />
-            <SocialIcon 
-                url="https://www.instagram.com/believeinsamm/" 
-                fgColor='gray'
-                bgColor='transparent' 
-            /> */}
         </motion.div>
 
         <motion.div
