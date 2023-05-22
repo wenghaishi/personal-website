@@ -18,8 +18,8 @@
 }
 
 .lottery:hover {
-  background-image: url('../public/lottery.gif');
-  scale: 1.05;
+  /* background-image: url('../public/lottery.gif');
+  scale: 1.05; */
 }
 
 .airbnb {

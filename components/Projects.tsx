@@ -19,11 +19,7 @@ function Projects() {
           className="w-screen snap-center flex flex-col space-y-5 items-center justify-center mt-12 h-screen
             p-20"
         >
-          <a
-            href="https://l-wenghaishi.vercel.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://www.jobify.live/" target="_blank" rel="noreferrer">
             <motion.img
               initial={{
                 y: -300,
@@ -33,7 +29,7 @@ function Projects() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               loading="eager"
-              src="default.png"
+              src="job.png"
               alt=""
               className="mb-20 md:mb-0 lottery flex-shrink-0 w-56 h-56 rounded-full object-cover
                 md:rounded-lg md:w-80 md:h-80 xl:w-[700px] xl:h-[350px]"
@@ -41,13 +37,12 @@ function Projects() {
           </a>
           <div className="h-1/4 w-full ">
             <h4 className="text-2xl text-center mb-4">
-              <span className="font-bold ">Lottery dApp</span>
+              <span className="font-bold ">Job tracking App</span>
             </h4>
 
             <p className="text-sm md:text-lg text-center md:text-left">
-              Deployed on Polygon's Mumbai testnet. Allows players to purchase
-              tickets. Allow contract owner to draw winners. Built with NextJs,
-              Typescript & TailwindCSS. (Ensure metamask on Mumbai).
+              Job tracker App with search, filter and chart features. Built with
+              ReactJs, NodeJs, ExpressJs and MongoDB. Allows creation of users and jobs.
             </p>
           </div>
         </div>
