@@ -60,3 +60,29 @@
    background-image: url('../public/expense.gif');
    scale: 1.05;
  }
+
+ .trello {
+  background-image: url('../public/trello.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  transition: all .25s ease-in-out; 
+ }
+ 
+ .trello:hover {
+   background-image: url('../public/trello.gif');
+   scale: 1.05;
+ }
+
+ .job {
+  background-image: url('../public/job.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  transition: all .25s ease-in-out; 
+ }
+ 
+ .job:hover {
+   background-image: url('../public/job.gif');
+   scale: 1.05;
+ }
