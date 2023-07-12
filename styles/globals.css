@@ -86,3 +86,16 @@
    background-image: url('../public/job.gif');
    scale: 1.05;
  }
+
+ .lc {
+  background-image: url('../public/lc.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  transition: all .25s ease-in-out; 
+ }
+ 
+ .lc:hover {
+   background-image: url('../public/lc.gif');
+   scale: 1.05;
+ }

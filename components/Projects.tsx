@@ -16,7 +16,49 @@ function Projects() {
         className="relative w-full flex mt-12 overflow-y-hidden snap-x md:flex-row flex-col snap-mandatory max-w-screen-2xl
         z-20"
       >
+        <div
+          className="w-screen snap-center flex flex-col space-y-5 items-center mt-12 justify-center 
+              p-20  h-screen"
+        >
+          <a
+            href="https://catch-nft.herokuapp.com/tokens"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <motion.img
+              initial={{
+                y: -300,
+                opacity: 0,
+              }}
+              transition={{ duration: 1.2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              loading="eager"
+              src="default.png"
+              alt=""
+              className="mb-20 md:mb-0 catch brightness-95 flex-shrink-0 w-56 h-56 rounded-full object-cover
+                  md:rounded-lg md:w-80 md:h-80 xl:w-[700px] xl:h-[350px] "
+            />
+          </a>
+          <div className="h-1/4 w-full">
+            <h4 className="text-2xl text-center  mb-4">
+              <span className="font-bold ">
+                Catch NFT app{" "}
+                <SocialIcon
+                  url="https://github.com/wenghaishi/catch-1160"
+                  fgColor="gray"
+                  bgColor="transparent"
+                />
+              </span>
+            </h4>
 
+            <p className="text-lg text-center md:text-left">
+              Pokemon GO! But with NFTs. Allows users to capture Geo-tagged
+              NFTs. Built in Ruby on Rails, bootstrap & PostgreSQL. Best
+              accessed via mobile.
+            </p>
+          </div>
+        </div>
 
         <div
           className="w-screen snap-center flex flex-col space-y-5 items-center mt-12 justify-center 

@@ -21,7 +21,7 @@ function Projects3() {
               p-20  h-screen"
         >
           <a
-            href="https://catch-nft.herokuapp.com/tokens"
+            href="https://leetcode-javascript-only.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -36,16 +36,16 @@ function Projects3() {
               loading="eager"
               src="default.png"
               alt=""
-              className="mb-20 md:mb-0 catch brightness-95 flex-shrink-0 w-56 h-56 rounded-full object-cover
+              className="mb-20 md:mb-0 lc brightness-95 flex-shrink-0 w-56 h-56 rounded-full object-cover
                   md:rounded-lg md:w-80 md:h-80 xl:w-[700px] xl:h-[350px] "
             />
           </a>
           <div className="h-1/4 w-full">
             <h4 className="text-2xl text-center  mb-4">
               <span className="font-bold ">
-                Catch NFT app{" "}
+                LeetCode but javacript Only
                 <SocialIcon
-                  url="https://github.com/wenghaishi/catch-1160"
+                  url="https://github.com/wenghaishi/Leetcode-javascript-only"
                   fgColor="gray"
                   bgColor="transparent"
                 />
@@ -53,9 +53,7 @@ function Projects3() {
             </h4>
 
             <p className="text-lg text-center md:text-left">
-              Pokemon GO! But with NFTs. Allows users to capture Geo-tagged
-              NFTs. Built in Ruby on Rails, bootstrap & PostgreSQL. Best
-              accessed via mobile.
+              A LeetCode clone. Created with ReactJS, TailwindCSS, Auth0 and Monaco editor.
             </p>
           </div>
         </div>
@@ -87,7 +85,7 @@ function Projects3() {
           <div className="h-1/4 w-full ">
             <h4 className="text-2xl text-center mb-4 ">
               <span className="font-bold ">
-                Trello Chat GPT clone{" "}
+                Trello Chatgpt Clone
                 <SocialIcon
                   url="https://github.com/wenghaishi/trello-clone-NextJS"
                   fgColor="gray"
@@ -97,8 +95,7 @@ function Projects3() {
             </h4>
 
             <p className="text-sm md:text-lg text-center md:text-left ">
-              A trello clone that allows users to track tasks. Utilised NextJs, typescript
-              tailwindCSS and Chat GPT API.
+              A Trello clone with drag and drop features as well as OpenAi API integration.
             </p>
           </div>
         </div>
