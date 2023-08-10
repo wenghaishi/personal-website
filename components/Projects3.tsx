@@ -21,7 +21,7 @@ function Projects3() {
               p-20  h-screen"
         >
           <a
-            href="https://leetcode-javascript-only.vercel.app/"
+            href="https://js-4-all.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -43,9 +43,9 @@ function Projects3() {
           <div className="h-1/4 w-full">
             <h4 className="text-2xl text-center  mb-4">
               <span className="font-bold ">
-                LeetCode but javacript Only
+                Js-4-all
                 <SocialIcon
-                  url="https://github.com/wenghaishi/Leetcode-javascript-only"
+                  url="https://github.com/wenghaishi/JS-4-All"
                   fgColor="gray"
                   bgColor="transparent"
                 />
@@ -53,7 +53,7 @@ function Projects3() {
             </h4>
 
             <p className="text-lg text-center md:text-left">
-              A LeetCode clone. Created with ReactJS, TailwindCSS, Auth0 and Monaco editor.
+              A platform for learning javascript. Consists of leetcode questions, flashcards and lessons. Utilized NextJs and MongoDB.
             </p>
           </div>
         </div>
@@ -95,7 +95,7 @@ function Projects3() {
             </h4>
 
             <p className="text-sm md:text-lg text-center md:text-left ">
-              A Trello clone with drag and drop features as well as OpenAi API integration.
+              A Trello clone with drag and drop features as well as OpenAi API integration. Utilized Nextjs and appwrite.
             </p>
           </div>
         </div>

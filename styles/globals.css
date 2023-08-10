@@ -88,7 +88,7 @@
  }
 
  .lc {
-  background-image: url('../public/lc.png');
+  background-image: url('../public/js-4-all.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; 
@@ -96,6 +96,6 @@
  }
  
  .lc:hover {
-   background-image: url('../public/lc.gif');
+   background-image: url('../public/js-4-all.gif');
    scale: 1.05;
  }
