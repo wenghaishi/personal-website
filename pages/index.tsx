@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div
       className="bg-[rgb(36,36,36)] text-white h-screen snap-y nap-mandatory
-    overflow-scroll z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80"
+    overflow-scroll z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 overflow-x-hidden"
     >
       <Head>
         <title>Sam&apos;s website</title>

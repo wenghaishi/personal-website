@@ -53,7 +53,7 @@ function Projects3() {
             </h4>
 
             <p className="text-lg text-center md:text-left">
-              A platform for learning javascript. Consists of leetcode questions, flashcards and lessons. Utilized NextJs and MongoDB.
+              A platform for learning javascript. Consists of leetcode questions, flashcards and lessons. Utilized Javascript NextJs and MongoDB.
             </p>
           </div>
         </div>
@@ -95,7 +95,7 @@ function Projects3() {
             </h4>
 
             <p className="text-sm md:text-lg text-center md:text-left ">
-              A Trello clone with drag and drop features as well as OpenAi API integration. Utilized Nextjs and appwrite.
+              A Trello clone with drag and drop features as well as OpenAi API integration. Utilized Typescript Nextjs and appwrite.
             </p>
           </div>
         </div>
